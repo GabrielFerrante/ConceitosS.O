@@ -1,0 +1,324 @@
+##### SIMULAÇÃO - INÍCIO #####
+
+[Criando Processo P1]
+
+*** DEBUG - INÍCIO ***
+
+### CPU - Contador de instrução: 1 ###
+
+### CPU - Última instrução executada ###
+
+ - Processo: P1
+ - Tipo: Novo Processo
+ - Endereço/Tamanho: 50
+
+### CPU - Tabela de processos ###
+
+ - ID: P1 - Estado: PRONTO - Em disco: 0 - Páginas Alocadas: 0 1 2 3 4 5 6 7 8 9 10 11 12 
+
+### Memória Virtual - Espaço de Endereçamento ###
+
+Página nº.: 0
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 1
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 2
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 3
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 4
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 5
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 6
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 7
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 8
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 9
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 10
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 11
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 12
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 13
+Alocada: 0 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 14
+Alocada: 0 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 15
+Alocada: 0 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+### MMU - Mapeamento entre Páginas e Quadros ###
+
+Página nº.: 0 - Quadro nº.: -1 - Presente: 0
+Página nº.: 1 - Quadro nº.: -1 - Presente: 0
+Página nº.: 2 - Quadro nº.: -1 - Presente: 0
+Página nº.: 3 - Quadro nº.: -1 - Presente: 0
+Página nº.: 4 - Quadro nº.: -1 - Presente: 0
+Página nº.: 5 - Quadro nº.: -1 - Presente: 0
+Página nº.: 6 - Quadro nº.: -1 - Presente: 0
+Página nº.: 7 - Quadro nº.: -1 - Presente: 0
+Página nº.: 8 - Quadro nº.: -1 - Presente: 0
+Página nº.: 9 - Quadro nº.: -1 - Presente: 0
+Página nº.: 10 - Quadro nº.: -1 - Presente: 0
+Página nº.: 11 - Quadro nº.: -1 - Presente: 0
+Página nº.: 12 - Quadro nº.: -1 - Presente: 0
+Página nº.: 13 - Quadro nº.: -1 - Presente: 0
+Página nº.: 14 - Quadro nº.: -1 - Presente: 0
+Página nº.: 15 - Quadro nº.: -1 - Presente: 0
+
+### MMU - Contador de page faults: 0 ###
+
+*** DEBUG - FIM ***
+
+[P1] Leitura
+PAGE FAULT. Chamando rotina de tratamento.
+Mapeamento de endereço - Virtual: 0 Físico: 0
+Leitura de memória física realizada. Endereço: 0
+
+*** DEBUG - INÍCIO ***
+
+### CPU - Contador de instrução: 2 ###
+
+### CPU - Última instrução executada ###
+
+ - Processo: P1
+ - Tipo: Leitura
+ - Endereço/Tamanho: (0)2
+
+### CPU - Tabela de processos ###
+
+ - ID: P1 - Estado: PRONTO - Em disco: 0 - Páginas Alocadas: 0 1 2 3 4 5 6 7 8 9 10 11 12 
+
+### Memória Virtual - Espaço de Endereçamento ###
+
+Página nº.: 0
+Alocada: 1 - Modificada: 0 - Referenciada: 1
+Última referência na instrução nº.: 1
+
+Página nº.: 1
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 2
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 3
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 4
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 5
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 6
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 7
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 8
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 9
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 10
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 11
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 12
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 13
+Alocada: 0 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 14
+Alocada: 0 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 15
+Alocada: 0 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+### MMU - Mapeamento entre Páginas e Quadros ###
+
+Página nº.: 0 - Quadro nº.: 0 - Presente: 1
+Página nº.: 1 - Quadro nº.: -1 - Presente: 0
+Página nº.: 2 - Quadro nº.: -1 - Presente: 0
+Página nº.: 3 - Quadro nº.: -1 - Presente: 0
+Página nº.: 4 - Quadro nº.: -1 - Presente: 0
+Página nº.: 5 - Quadro nº.: -1 - Presente: 0
+Página nº.: 6 - Quadro nº.: -1 - Presente: 0
+Página nº.: 7 - Quadro nº.: -1 - Presente: 0
+Página nº.: 8 - Quadro nº.: -1 - Presente: 0
+Página nº.: 9 - Quadro nº.: -1 - Presente: 0
+Página nº.: 10 - Quadro nº.: -1 - Presente: 0
+Página nº.: 11 - Quadro nº.: -1 - Presente: 0
+Página nº.: 12 - Quadro nº.: -1 - Presente: 0
+Página nº.: 13 - Quadro nº.: -1 - Presente: 0
+Página nº.: 14 - Quadro nº.: -1 - Presente: 0
+Página nº.: 15 - Quadro nº.: -1 - Presente: 0
+
+### MMU - Contador de page faults: 1 ###
+
+*** DEBUG - FIM ***
+
+[P1] Escrita
+Mapeamento de endereço - Virtual: 0 Físico: 0
+Escrita na memória física realizada. Endereço: 0
+
+*** DEBUG - INÍCIO ***
+
+### CPU - Contador de instrução: 3 ###
+
+### CPU - Última instrução executada ###
+
+ - Processo: P1
+ - Tipo: Gravação
+ - Endereço/Tamanho: (0)2
+
+### CPU - Tabela de processos ###
+
+ - ID: P1 - Estado: PRONTO - Em disco: 0 - Páginas Alocadas: 0 1 2 3 4 5 6 7 8 9 10 11 12 
+
+### Memória Virtual - Espaço de Endereçamento ###
+
+Página nº.: 0
+Alocada: 1 - Modificada: 1 - Referenciada: 1
+Última referência na instrução nº.: 2
+
+Página nº.: 1
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 2
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 3
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 4
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 5
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 6
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 7
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 8
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 9
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 10
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 11
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 12
+Alocada: 1 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 13
+Alocada: 0 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 14
+Alocada: 0 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+Página nº.: 15
+Alocada: 0 - Modificada: 0 - Referenciada: 0
+Última referência na instrução nº.: 0
+
+### MMU - Mapeamento entre Páginas e Quadros ###
+
+Página nº.: 0 - Quadro nº.: 0 - Presente: 1
+Página nº.: 1 - Quadro nº.: -1 - Presente: 0
+Página nº.: 2 - Quadro nº.: -1 - Presente: 0
+Página nº.: 3 - Quadro nº.: -1 - Presente: 0
+Página nº.: 4 - Quadro nº.: -1 - Presente: 0
+Página nº.: 5 - Quadro nº.: -1 - Presente: 0
+Página nº.: 6 - Quadro nº.: -1 - Presente: 0
+Página nº.: 7 - Quadro nº.: -1 - Presente: 0
+Página nº.: 8 - Quadro nº.: -1 - Presente: 0
+Página nº.: 9 - Quadro nº.: -1 - Presente: 0
+Página nº.: 10 - Quadro nº.: -1 - Presente: 0
+Página nº.: 11 - Quadro nº.: -1 - Presente: 0
+Página nº.: 12 - Quadro nº.: -1 - Presente: 0
+Página nº.: 13 - Quadro nº.: -1 - Presente: 0
+Página nº.: 14 - Quadro nº.: -1 - Presente: 0
+Página nº.: 15 - Quadro nº.: -1 - Presente: 0
+
+### MMU - Contador de page faults: 1 ###
+
+*** DEBUG - FIM ***
+
+##### SIMULAÇÃO - FIM #####
+

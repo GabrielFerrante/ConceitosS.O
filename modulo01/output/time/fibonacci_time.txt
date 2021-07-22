@@ -1,0 +1,6 @@
+Tempo total de execução: 36.79
+Uso de CPU: 1%
+Tempo gasto em modo usuário: 0.32
+Tempo gasto em modo kernel: 0.25
+Trocas de contexto voluntárias: 564
+Trocas de contexto involuntárias: 11470

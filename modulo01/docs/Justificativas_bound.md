@@ -1,0 +1,11 @@
+# CPU Bound
+
+O programa fibonacci.c apresentou um comportamento(**output/time/fibonacci_time.txt**) com poucas trocas voluntárias em comparação as involuntárias, somado a isso, o tempo de execução se mostrou alto, apesar do consumo de cpu ser baixo e ter uma quantidade de tempo gasto em modo kernel e no modo usuário serem próximos, acreditamos que devido as poucas trocas voluntárias (para o estado de bloqueio) e seu tempo de execução, ele seja cpu-bound. 
+
+Já o programa multi_matrizes.c semelhantemente ao anterior, demonstrou uma quantidade de trocas voluntárias também inferior as trocas involuntárias. Além disso, o seu tempo de execução também é alto. Outra característica é que o programa teve poucas idas ao modo kernel, permitindo uma maior execução constante no modo usuário. Devido as poucas trocas de contexto voluntárias, seu tempo de execução e sua constante execução mudando poucas vezes ao modo kernel, podemos caracteriza-lo como cpu-bound.
+
+# IO Bound
+
+O primeiro algoritmo que testamos,  manipula_arquivo.c, acreditamos que seria io bound por tratar de manipulação de arquivos (logo, mexer com entradas e saídas). Porém, não foi o caso, pois esse programa utilizou muita CPU. No arquivo **output/time/manipula_arquivo_time.txt** vemos que a utilização da CPU ficou em 99% (tempo de execução ficou 2.63 em kenrel e apenas 0.06 em modo usuário). Houveram muitas trocas involuntárias de contexto, o que indica que a aplicação estava utilização a CPU e sofreu interrupções de algoritmos escalonadores para permitir que outros processos utilizassem a CPU.
+
+Então, testamos outro programa, o recebe_entradas, que recebe entradas do teclado do usuário e exibe em tela as saídas. Esse programa teve como resultado, registrado no arquivo **output/time/recebe_entradas.txt**, 0% de utilização da CPU, e teve um gasto total de tempo de execução de 10.59 segundos pois simulamos uma demora na digitação pelo usuário. Houveram poucas trocas de contexto involuntárias, em comparação com o algoritmo anterior. Foram 4 trocas de contexto voluntárias, sendo que são pedidas 4 entradas do usuário (nome, idade, comida favorita e música favorita), então o programa muda de contexto para esperar a respota do usuário.
